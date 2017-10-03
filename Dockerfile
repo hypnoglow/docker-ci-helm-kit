@@ -3,7 +3,7 @@ LABEL maintainer="Igor Zibarev <zibarev.i@gmail.com>"
 
 ENV KUBECTL_VERSION v1.8.0
 ENV HELM_VERSION v2.6.1
-ENV HELM_PLUGIN_S3_VERSION v0.2.1
+ENV HELM_PLUGIN_S3_VERSION v0.2.2
 
 # download apk index
 RUN apk add --update
